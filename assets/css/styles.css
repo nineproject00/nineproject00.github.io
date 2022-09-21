@@ -1587,7 +1587,7 @@ a:hover.back-to-top {
 /*     18. Sign Up and Log In Pages     */
 /****************************************/
 .ex-2-header {
-	padding-top: 4rem;
+	/* padding-top: 2rem; */
 	background-color: #fff;
 	text-align: center;
 	min-height: 100vh;
@@ -1860,13 +1860,14 @@ a:hover.back-to-top {
 	}
 
 	.tabs .image-container img {
+		cursor: pointer;
 		border-radius: 10rem;
 		box-shadow: 0 .5px 4px black;
 	}
 	.tabs .image-container img:hover,
 	.tabs .image-container img.active {
 		cursor: pointer;
-		opacity: 0.8;
+		opacity: 0.9;
 		box-shadow: 0 1px 8px black;
 	}
 	/* end of features */
@@ -2043,7 +2044,7 @@ a:hover.back-to-top {
 	}
 
 	.cards-1 .card-image {
-		width: 12.5rem;
+		width: 5rem;
 	}
 	/* end of description */
 
