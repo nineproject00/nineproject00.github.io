@@ -935,9 +935,9 @@ input[type='checkbox'] {
 	margin-right: 0.625rem;
 }
 
-.tabs .image-container {
+/* .tabs .image-container {
 	margin-bottom: 2.75rem;
-}
+} */
 
 .tabs .list-unstyled .fas {
 	color: #1d2e79;
@@ -1859,8 +1859,15 @@ a:hover.back-to-top {
 		border-bottom: 2px solid #1d2e79;
 	}
 
-	.tabs .image-container {
-		margin-bottom: 0;
+	.tabs .image-container img {
+		border-radius: 10rem;
+		box-shadow: 0 .5px 4px black;
+	}
+	.tabs .image-container img:hover,
+	.tabs .image-container img.active {
+		cursor: pointer;
+		opacity: 0.8;
+		box-shadow: 0 1px 8px black;
 	}
 	/* end of features */
 
@@ -2042,10 +2049,10 @@ a:hover.back-to-top {
 
 
 	/* Features */
-	.tabs .image-container {
+	/* .tabs .image-container {
 		margin-right: 1.5rem;
 		margin-left: 1rem;
-	}
+	} */
 	
 	.tabs .text-container {
 		margin-top: 1.5rem;
