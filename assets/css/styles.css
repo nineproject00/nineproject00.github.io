@@ -782,7 +782,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-color: #FFF;
+	background-color: #fff;
 }
 
 .header .header-content {
@@ -875,13 +875,6 @@ input[type='checkbox'] {
 	margin-left: auto;
 	padding: 0;
 	border: none;
-}
-
-.cards-1 .card-image {
-	max-width: 16rem;
-	margin-right: auto;
-	margin-bottom: 2rem;
-	margin-left: auto;
 }
 
 .cards-1 .card-title {
@@ -1825,7 +1818,7 @@ a:hover.back-to-top {
 	/* end of header */
 
 
-	/* Services */
+	/* Our Services */
 	.cards-1 .card {
 		display: inline-block;
 		width: 17rem;
@@ -1836,7 +1829,16 @@ a:hover.back-to-top {
 	}
 
 	.cards-1 .card-image {
-		width: 9rem;
+		width: 12.5rem;
+		max-width: 16rem;
+		margin-right: auto;
+		margin-bottom: 2rem;
+		margin-left: auto;
+	}
+	.cards-1 .card {
+		width: 18.875rem;
+		margin-right: 2rem;
+		margin-left: 2rem;
 	}
 	/* end of Services */
 
@@ -2034,20 +2036,6 @@ a:hover.back-to-top {
 		margin-left: 3rem;
 	}
 	/* end of customer */
-
-
-	/* Description */
-	.cards-1 .card {
-		width: 18.875rem;
-		margin-right: 2rem;
-		margin-left: 2rem;
-	}
-
-	.cards-1 .card-image {
-		width: 5rem;
-	}
-	/* end of description */
-
 
 	/* Features */
 	/* .tabs .image-container {
